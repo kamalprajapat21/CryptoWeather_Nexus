@@ -1,30 +1,4 @@
-// export function Footer() {
-//   return (
-//     <footer className="bg-white dark:bg-gray-800 shadow-lg mt-auto">
-//       <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-//         <div className="flex justify-center items-center">
-//           <p className="text-gray-600 dark:text-gray-400 text-sm">
-//             Made by{' '}
-//             <a
-//               href="https://github.com/kamalprajapat21"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium"
-//             >
-//               @kamalprajapat21
-//             </a>
-//           </p>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// } 
-
-
-
-
-
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, LinkedinIcon, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -69,12 +43,13 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/kamalprajapat21"
+                href="https://www.linkedin.com/in/kamal-prajapat-b19192244/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400"
               >
-                <Linkedin className="h-5 w-5" />
+                <LinkedinIcon className="h-5 w-5 mr-2" />
+
               </a>
               <a
                 href="mailto:kamalprajapat7117@gmail.com"
